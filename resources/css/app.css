@@ -1,0 +1,41 @@
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+/* HOME PAGE ############################################################################################### */
+.card {
+    width: 12.5rem;
+    height: 17rem;
+    background-color: #212121;
+    border-radius: 1rem;
+    border: #212121 0.2rem solid;
+    transition: all 0.4s ease-in;
+    box-shadow: 0.4rem 0.4rem 0.6rem #00000040;
+}
+   
+.card:hover {
+    transform: translateY(-1.5rem);
+    border: #f2295bf0 0.2em solid;
+    border-radius: 2.5rem 0 2.5rem 0;
+}
+.centered-text {
+    text-align: center;
+    vertical-align: top;
+    font-weight: bold; 
+}
+
+
+/* All Projects ############################################################################################### */
+.innerBorder{
+    border-radius: 37px;
+    background: linear-gradient(145deg, #d4dfe6, #fbffff);
+    box-shadow:  35px 35px 70px #868d91,
+                -35px -35px 70px #ffffff;
+}
